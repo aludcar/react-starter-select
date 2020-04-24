@@ -11,9 +11,6 @@ Vous devez créé une application React qui va contenir une liste déroulante et
 * Le state doit être geré au dessus des deux components.
 * Les deux components ne doivent pas être imbriqués l'un dans l'autre (doivent rester dans `App`).
 
-# Test
-Le test vérifie que un compteur indique le nombre de click. Que l'incrémentation et que le reset fonctionne.
-
 # Indice
 Vous devez passer la fonction setState et state du useState comme props pour permettre à un component enfant de recevoir la fonction et la valeur.
 
