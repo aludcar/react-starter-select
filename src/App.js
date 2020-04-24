@@ -8,18 +8,16 @@ const starterList = ['Bulbasaur', 'Charmander', 'Squirtle']
 const imgList = ['bulbasaur.png', 'charmander.png', 'squirtle.png']
 
 function App() {
-
-
-    const [starter, setStarter] = useState('Bulbasaur')
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <StarterSelector list={starterList} starter={starter} setStarter={setStarter}/>
-        <StarterShower imgList={imgList} starter={starter} starterList={starterList}/>
-      </header>
-    </div>
-  );
+    // Ajoutez la gestion du state ici
+    // Vous devez ajouter des props aux components
+    return (
+        <div className="App">
+            <header className="App-header">
+                <StarterSelector/>
+                <StarterShower/>
+            </header>
+        </div>
+    );
 }
 
 export default App;

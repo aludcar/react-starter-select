@@ -1,10 +1,9 @@
 import React from "react";
 
-function StarterShower({imgList, starterList, starter}){
-    const img = imgList[starterList.indexOf(starter)];
+function StarterShower(props){
 
     return (
-        <img src={img}/>
+        <div>Image ici</div>
     )
 }
 
