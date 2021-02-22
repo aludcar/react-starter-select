@@ -1,9 +1,15 @@
 import React from "react";
 
-function StarterSelector(props){
+function StarterSelector({list}){
+    const options = list.map((e, i) => <option key={i} value={e}> {e}</option>)
 
     return (
-        <div>Sélection ici</div>
+        <>
+            <label>Pick your favorite Pokemon </label>
+            <select>
+                {options}
+            </select>
+        </>
     )
 }
 

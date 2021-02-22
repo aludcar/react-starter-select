@@ -1,9 +1,14 @@
 import React from "react";
 
-function StarterShower(props){
+function StarterShower({listImg, showPokemon}){
+    const imgPokemons = listImg.map((e) =>{
+        return <img src={e} />
+    })
 
     return (
-        <div>Image ici</div>
+        <>
+        {imgPokemons}
+        </>
     )
 }
 

@@ -13,8 +13,8 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <StarterSelector/>
-                <StarterShower/>
+                <StarterSelector list={starterList}/>
+                <StarterShower listImg={imgList}/>
             </header>
         </div>
     );
